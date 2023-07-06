@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load static %}
+
+    {{ blog.title }} <br>
+    {{ blog.date_posted|date:'d M Y' }} <br>
+    {{ blog.content|safe }}
+    
+{% endblock %}

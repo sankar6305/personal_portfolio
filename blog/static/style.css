@@ -1,0 +1,243 @@
+.header {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Home_btn {
+    color: #fff;
+    padding: 10px 20px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.remain_ul .resume {
+    background: #000bd8;
+    color: #fff;
+    padding: 10px 20px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.remain_ul>li {
+    float: right;
+    margin: 0 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.remain_ul>li:hover,
+li>a:hover,
+.Home_btn:hover,
+.Home_btn>a:hover {
+    background: #000bd8;
+    color: #fff;
+    box-shadow: 0 0 10px #000bd8;
+}
+
+.sankar_img>img:hover {
+    box-shadow: 0 0 10px #000bd8;
+}
+
+.clickme>img {
+    border-radius: 10px;
+    margin-left: 44%;
+    height: 40px;
+    width: auto;
+    transition: all 0.3s ease 0s;
+}
+
+.footer_class {
+    background: #000bd8;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.sankar_img>img {
+    border-radius: 10px;
+    border: 1px solid #575a9a;
+    margin-left: 40%;
+    height: 250px;
+    width: 250px;
+}
+
+.card {
+    display: inline-block;
+    /* margin: 50px; */
+    width: 250px;
+    padding-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    border: 1px solid #575a9a;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.project_title {
+    width: 100%;
+    height: 60px;
+}
+
+.project_title>h1 {
+    color: #040077;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.project_img>img {
+    margin: 5%;
+    height: 200px;
+    width: 200px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px #000bd8;
+}
+
+.project_technology {
+    color: #c40202;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    margin-bottom: 9px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.project_url>a {
+    margin-left: 35%;
+    color: #000dff;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.Project_tag {
+    color: #000bd8;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.blog {
+    text-align: center;
+    font-size: 30px;
+    color: #000bd8;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.individualheading {
+    text-align: center;
+    height: 150px;
+    width: 400px;
+    font-size: 30px;
+    color: #000bd8;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+}
+
+.individualheading:hover {
+    box-shadow: 0 0 10px #000bd8;
+}
+
+.about_me>h1,
+.about_me>h2 {
+    text-align: center;
+    font-size: 15px;
+    color: #000bd8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.about_me>p {
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+
+.about {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about>h1 {
+    color: #000bd8;
+    font-size: 24px;
+}
+
+.about>h2 {
+    color: #000bd8;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.about>p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.about>a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.about>a:hover {
+    text-decoration: underline;
+}
+
+.about>.achievement-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.about .achievement-list>li {
+    color: #555;
+    margin-bottom: 10px;
+}
